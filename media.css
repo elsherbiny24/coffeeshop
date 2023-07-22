@@ -1,0 +1,111 @@
+@media (max-width:1050px) {
+    header{
+        padding: 20px 60px;
+       
+    }
+    .home img{
+        width: 450px;
+
+    }
+    .home .text-info h1{
+        font-size: 45px;
+    }
+    .about{
+        padding-right:20px ;
+    }
+    .about .about-img img{
+        width: 450px;
+    }
+}
+@media (max-width:1120px){
+    header{
+        padding: 20px 30px;
+    }
+    .home img{
+        width: 450px;
+
+    }
+     .about .about-img img{
+        width: 450px;
+    }
+}
+@media (max-width:991px) {
+    .home{
+        padding-top: 100px;
+    }
+    header{
+        padding: 20px 20px;
+    }
+    .home img{
+        width: 400px;
+
+    }
+    .home .text-info h1{
+        font-size: 35px;
+    }
+    .home .text-info p{
+        font-size: 16px;
+    }
+    .about .about-img img{
+        width: 350px;
+    }
+    .about-text .pp{
+        display: none;
+    }
+    
+}
+
+@media (max-width:778px){
+    header{
+         padding: 12px 10px
+    }
+    header #menu{
+        display: initial;
+    }
+    nav{
+        position: absolute;
+        top: -500%;
+        right: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1.4rem;
+        padding: 10px 20px;
+        background-color: #edeae3;
+        width: 100%;
+        text-align: center;
+        transition: all .5s ease;
+    }
+    nav a{
+         color: #1b1b1b;
+        }
+        nav a:hover{
+            color: #fff;
+        }
+    nav.active{
+        top: 100%;
+    }
+    .home{
+        padding-top: 80px;
+    }
+    .home img{
+        width: 400px;
+
+    }
+    .about .about-img img{
+        width: 350px;
+    }
+
+}
+@media (max-width:400px){
+    header{
+        padding: 20px 0px;
+    }
+    .home img{
+        width: 250px;
+
+    }
+     .about .about-img img{
+        width: 300px;
+    }
+}
